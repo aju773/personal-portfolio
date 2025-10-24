@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Mail } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 function Hero({ isDark }) {
   return (
@@ -28,15 +28,17 @@ function Hero({ isDark }) {
             GitHub
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="https://www.linkedin.com/in/ajith-v-s-667134208/"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors border ${
               isDark 
                 ? 'border-gray-700 hover:bg-gray-800' 
                 : 'border-gray-300 hover:bg-gray-100'
             }`}
           >
-            <Mail size={20} />
-            Contact
+            <Linkedin size={20} />
+            LinkedIn
           </a>
         </div>
       </div>
